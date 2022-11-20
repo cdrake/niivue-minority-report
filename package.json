@@ -1,0 +1,19 @@
+{
+  "name": "niivue-minority-report",
+  "version": "0.0.1",
+  "description": "manipulate niivue images with hand gestures",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "niivue",
+    "hand-pose-estimation"
+  ],
+  "author": "Chris Drake",
+  "license": "MIT",
+  "dependencies": {
+    "@mediapipe/hands": "^0.4.1646424915",
+    "@tensorflow-models/hand-pose-detection": "^2.0.0"
+  }
+}
